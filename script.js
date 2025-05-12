@@ -2,11 +2,11 @@ export function capitalize(name) {
   return name.split("")[0].toUpperCase() + name.split("").splice(1).join("");
 }
 export function reverseString(name) {
-  let kek = "";
+  let reversed = "";
   for (let i = name.length - 1; i >= 0; i--) {
-    kek += name[i];
+    reversed += name[i];
   }
-  return kek;
+  return reversed;
 }
 export const calculator = {
   add: (a, b) => a + b,
